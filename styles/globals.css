@@ -4,8 +4,13 @@ body {
 
 
 
-  font-family: "Nunito";
+  justify-content: center;
+  align-items: center;
+  background: url(../public/frame.png) no-repeat center fixed;
+  background-size: cover;
+
 }
+
 a {
   color: #333;
   text-decoration: none;
@@ -14,11 +19,27 @@ a {
 
   margin: 0 auto;
 }
-nav {
-  margin: 10px auto 80px;
-  text-align: center;
-  padding: 10px 0;
+.hello {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.try {
+  height:100px;
+  width:100px;
+  padding: 20% 20%;
+  filter: brightness(0.2);
+}
+.try:hover {
+  filter: brightness(1);
+}
+nav {
+
+  text-align: center;
+  padding: 0px 0;
+  display: center;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px dotted red;
@@ -30,19 +51,73 @@ nav .logo {
   margin-right: auto;
 }
 
-.frame img {
-height: 10%;
-text-align: center;
+
+.frame {
+ height: 10%;
+ width: 90%;
+padding: 2% 5%;
+ overflow: scroll;
+ z-index:1;
+
+
+
 }
+.framephoto {
+  
+  position: absolute;
+  width:876px;
+  height: 599px;
+  
+}
+
 footer {
   display: block;
-  text-align: left;
-  padding: 1px 28px;           
-  margin-top: 1px;
-
+  text-align: center;
+  padding: 1% 2%;           
+  padding-bottom: 0%;
+  display: center;
   font-size: small;
   font-weight: normal;
   color: blue;
   border-top: 1px solid blue;
   line-height: normal;
 }
+
+
+.grille {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:  space-around;
+
+  height: 90%;
+  align-items: center;
+  border: 1px solid white;
+  align-content: s;
+  
+  }
+  .case {
+    height: 50%;
+    overflow: scroll;
+    width: 50%;
+    border: 1px dotted blue;
+  }
+  
+
+  .imageprofile {
+
+  }
+  .help {
+    width:70%;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+    align-items: center;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }

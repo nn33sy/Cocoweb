@@ -2,7 +2,7 @@ import Link from 'next/link'
 const workshop = () => {
     return (
 
-        <div>
+        <div class="frame">
         <h1>Workshops</h1>
          <p>
             Lorem ipsum dolor sit amet, 
