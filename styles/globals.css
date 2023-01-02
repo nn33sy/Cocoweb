@@ -6,8 +6,8 @@ body {
 
   justify-content: center;
   align-items: center;
-  background: url(../public/frame.png) no-repeat center fixed;
-  background-size: cover;
+  background-color: green;
+
 
 }
 
@@ -21,8 +21,10 @@ a {
 }
 .hello {
   display: flex;
+  margin: 0% 20%;
   justify-content: center;
   align-items: center;
+  border: 2px double white;
 
 
 }
@@ -40,6 +42,9 @@ nav {
   text-align: center;
   padding: 0px 0;
   display: center;
+  margin-bottom: 2%;
+  margin-left:20%;
+  margin-right: 20%;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px dotted red;
@@ -55,9 +60,10 @@ nav .logo {
 .frame {
  height: 10%;
  width: 90%;
-padding: 2% 5%;
+padding: 5% 10%;
  overflow: scroll;
  z-index:1;
+
 
 
 
@@ -73,7 +79,8 @@ padding: 2% 5%;
 footer {
   display: block;
   text-align: center;
-  padding: 1% 2%;           
+  padding: 1% 2%;          
+  margin: 2% 20%; 
   padding-bottom: 0%;
   display: center;
   font-size: small;
@@ -90,6 +97,7 @@ footer {
   justify-content:  space-around;
 
   height: 90%;
+  padding: 10% 10%;
   align-items: center;
   border: 1px solid white;
   align-content: s;
@@ -99,11 +107,13 @@ footer {
     height: 50%;
     overflow: scroll;
     width: 50%;
-    border: 1px dotted blue;
+    border: 1px dotted green;
   }
   
 
   .imageprofile {
+    border-radius: 50%;
+    border: 5px dotted pink;
 
   }
   .help {
