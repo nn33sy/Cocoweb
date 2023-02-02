@@ -2,40 +2,52 @@ import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 
-import BackImg from '../public/bouddha.png'
-import Button from '../public/favicon.ico'
+import TableImg from '../public/table.png'
+import Light from '../public/light2.png'
+import Statue from '../public/statue2.png'
 
-import Link from 'next/link'
+import Jar from '../public/pigmentjaryellow2.png'
+
+
 
 
 export default function Home() {
   return (
+<>
 
-    <div class="hello">
 
    
-     
-      <div class="frame">
-      <Link href="/about"> 
-        <Image class="try" 
-                src={BackImg}
-               /> 
-      </Link>
-      <Link href="/workshop"> <img src={BackImg}></img> </Link>
-        </div>
-
-
-
-{/*
-<Image class="frame" src={BackImg}  style="width:100%;"/>
-      <Link href="/about"> <img src={"./favicon.ico"}></img> </Link>
-    
-        <Link href="/workshop"><img src={"./favicon.ico"}></img> Workshop</Link>
-       <Image src={BackImg}/>*/}
-
-    { /*   <Navbar/>*/}
+     <div class="home">
+   
+    <div class="table">
+<div>
+  <a href="../about">
   
+    <Image class="selectimg" id="light" src={Light}></Image>
+   
+     
+    </a>
+    <a href="../services">
+    <Image  class="selectimg" id="statue" src={Statue}></Image>
+    </a>
+    <a href="../workshop">
+    <Image  class="selectimg" id="jar" src={Jar}></Image>
+    </a>
+</div>
+
+    
+  
+    <Image class="selectimg" id="table" src={TableImg}></Image>
+  
+
+    
     </div>
+     
+
+</div>
+
+        </>
+
    
    
   )

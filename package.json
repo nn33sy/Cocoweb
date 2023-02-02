@@ -6,11 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
+    "@mui/styled-engine-sc": "^5.11.0",
     "next": "13.0.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-calendar": "^4.0.0",
+    "react-dom": "18.2.0",
+    "react-native": "^0.71.1",
+    "react-native-webview": "^11.26.0",
+    "react-text": "^3.2.5",
+    "styled-components": "^5.3.6",
+    "vercel": "^28.15.0"
   }
 }

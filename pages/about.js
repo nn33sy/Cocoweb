@@ -1,26 +1,66 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Img from '../public/image150.jpeg'
-import ProfilPicture from '../public/photoCoco.jpeg'
-const About = () => {
-    return ( 
-        <div class="hello" >
-        <div class="frame">
-           
 
-            <div class="row">
-            <div class="column">
-           <p>Coralie est diplômée en conservation de sculptures par la City and Guilds London Art School, au Royaume-Uni. Ses spécialités sont le traitement d’objets en 3D de toutes tailles en bois, pierre, plâtre et pierres reconstituées.</p>
-            <p>Au cours de ses études, elle a acquis de l’expérience à Londres au London Museum, à l’abbaye de Westminster et à l’Abbaye de San Giorgio Maggiore à Venise, Italie. Elle a ensuite travaillé pour des studios de conservation privés basés à Londres, tels que Carvers et Guilders Ltd ou elle a travaillé sur des pièces importantes de la Collection Royale et chez DBR Ltd sur des projets de conservations de bâtiments et monuments historiques. Parallèlement, elle a entrepris des projets de conservations d’arts anciens et contemporaines pour divers collectionneurs basés au Royaume- Uni, en Belgique et en France.</p>
-    </div>
-            <div class="column" >
-                <Image class="imageprofile" src={ProfilPicture} ></Image>
-            </div>
- 
-            </div>
-            <Link href="/"> Home </Link>
+
+import Image from 'next/image'
+import ProfilePicture from '../public/cadre.png'
+
+
+
+
+
+
+const About = () => {
+
+
+  
+    return ( 
+      
+        <div >
+                   
+
+
+      
+
+
+
+          <div>
+        <Image class="imgcenter" id="profile" src={ProfilePicture}></Image>
         </div>
+
+        <div class="centerText" >
+        <h1>About</h1>
+        <div>
+
+<p>A restoration Atelier nested in the heart of<br /> Brussels, near the place jeu de Balle, run by <br /> myself, Coralie Llucia-How-Choong. </p>
+
+<p>I am a Sculpture and 3D objects<br />conservator/restorer, fully licenced from City<br />and Guilds London art school in 2015, my <br />specialities are the treatment of wood, stone
+<br />and plaster artefacts.</p>
+</div>
+<h1>Contact</h1>
+<div>
+  <a href="https://www.google.com/maps/place/Rue+du+Chevreuil+4,+1000+Bruxelles,+Belgique/@50.8380281,4.3431966,17z/data=!4m6!3m5!1s0x47c3c47ab20dc999:0x6e2f42cdf621a499!8m2!3d50.8380281!4d4.3453853!16s%2Fg%2F11c5c79_c5">
+  <p>4 rue du Chevreuil, 1000 Brussels</p> 
+  </a>
+
+<a href="tel:+44 7557 004907"> 
+<p> +32 478131371 </p>
+</a>
+
+<a href="mailto:llucia.coralie@gmail.com">
+  <p>coralie.how.atelier@gmail.com</p>
+</a>
+<a href="https://www.instagram.com/coralie_how_atelier/?hl=fr">
+  <p>instagram: @coralie.how.atelier</p>
+</a>
+
+</div>
+
+
+</div>          
+            
+
+
         </div>
+        
      );
 }
  
