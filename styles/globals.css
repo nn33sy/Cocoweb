@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/avenir');
 html, body, p{ 
 
-  background: url("../public/backgroundpink.png") no-repeat left fixed;
+  background: url("../backgroundpink.png") no-repeat left fixed;
   background-size: cover;
 }
 
@@ -270,7 +270,7 @@ a {
 footer {
 
   
-  background-image: url("../public/carreaux.png");
+  background-image: url("../carreaux.png");
   
   background-size: 50%;
 
