@@ -16,7 +16,7 @@ const workshop = () => {
 
             <h1>Workshops</h1>
             <div>
-        <p>The atelier is also hosting fabulous workshops for the<br />art lovers and the curious makers;
+        <p>The atelier is also hosting fabulous workshops for the<br />art lovers and the curious makers.
          Come and join me <br /> in one of the many modules.</p>
          
          <p>If you have an object and the wish to restore it <br />
@@ -33,7 +33,8 @@ const workshop = () => {
         <p>Follow me on instagram for the full informations.</p>
         </div>
         <div class="bookbutton" id="buttonworkshop">
-             <Link href="https://form.jotform.com/230292267118353">
+             <Link href="https://form.jotform.com/230292267118353"
+             target="_blank" rel="noopener noreferrer">
                 <h3>  Request informations </h3>
                 </Link>
              </div>

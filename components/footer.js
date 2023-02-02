@@ -21,10 +21,11 @@ const Footer = () => {
                 
 
               
-                    <a href="https://www.instagram.com/coralie_how_atelier/?hl=fr">
+                    <a href="https://www.instagram.com/coralie_how_atelier/?hl=fr" target="_blank" rel="noopener noreferrer">
                     <Image class="logo" src={InstImg}></Image>
                     </a>
-                    <a href="https://www.google.com/maps?q=4+rue+du+Chevreuil,+1000+Brussels&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjEr6Onz_b8AhXESaQEHQ7bA-oQ_AUoAXoECAEQAw">
+                    <a href="https://www.google.com/maps?q=4+rue+du+Chevreuil,+1000+Brussels&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjEr6Onz_b8AhXESaQEHQ7bA-oQ_AUoAXoECAEQAw" 
+                   target="_blank" rel="noopener noreferrer" >
                         <Image class="logo" src={LocImg}></Image>
                     </a>
                     </div>

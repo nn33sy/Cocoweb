@@ -40,7 +40,8 @@ const Services = () => {
             <p>The atelier's access is available only by appointment.</p>
             
              <div class="bookbutton" id="buttonservice">
-             <Link href="https://form.jotform.com/230292368728362">
+             <Link href="https://form.jotform.com/230292368728362"
+             target="_blank" rel="noopener noreferrer">
                 <h3>  Book an appointment  </h3>
                 </Link>
              </div>
