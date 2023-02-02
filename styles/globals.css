@@ -310,6 +310,16 @@ footer {
 
   filter: invert(0);
 }
+@media (max-width: 415px)
+        { 
+          .logo {
+            height : 40px;
+            width: 40px;
+           padding: 0% 2%;
+            filter: invert(1);
+          }
+
+        }
 
 
 
