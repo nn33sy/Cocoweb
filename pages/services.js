@@ -31,7 +31,7 @@ const Services = () => {
 
              <p>Services includes:</p>
              <p>• Conditions and treatment reports (no <br /> authentification)<br />
-             • Restorations and repairs <br />margin-bottom: 10%;
+             • Restorations and repairs <br />
              • Light and deep cleaning <br />
              • Sourcing of colaborator for complex case 
              <br />or objects presenting other materials that
