@@ -163,6 +163,10 @@ a {
   align-items: flex-end;
   
 }
+#textService {
+  max-width: 426px;
+
+}
 #statueServices {
   height:600px;
 

@@ -19,23 +19,23 @@ const Services = () => {
             <Image  class="imgcenter" id="statueServices" src={Statue}></Image>
 
             </div>
-            <div>
+            <div id="textService">
             <h1>Services</h1>
-            <p>Native from Reunion Island, I have studied <br />the art of sculpture and 3D objects
-            <br />conservation/restoration in London and<br />have since 2015 worked various project in
-            <br />London, Paris, Venice and Brussels.</p>
+            <p>Native from Reunion Island, I have studied the art of sculpture and 3D objects
+           conservation/restoration in London and have since 2015 worked various project in
+            London, Paris, Venice and Brussels.</p>
           
 
-             <p>My specialities are the treatment wood,<br />stone and plaster artifacts, using modern
-             <br />and traditional techniques. I work from my<br />atelier and in situ upon request.</p>
+             <p>My specialities are the treatment wood, stone and plaster artifacts, using modern
+             and traditional techniques. I work from my atelier and in situ upon request.</p>
 
              <p>Services includes:</p>
-             <p>• Conditions and treatment reports (no <br /> authentification)<br />
+             <p>• Conditions and treatment reports (no authentification)<br />
              • Restorations and repairs <br />
              • Light and deep cleaning <br />
              • Sourcing of colaborator for complex case 
-             <br />or objects presenting other materials that
-             <br /> are out of my specialities.
+             or objects presenting other materials that
+              are out of my specialities.
             </p>
             <p>The atelier's access is available only by appointment.</p>
             
