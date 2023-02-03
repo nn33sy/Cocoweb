@@ -36,7 +36,7 @@ const About = () => {
 and plaster artefacts.</p>
 </div>
 <h1>Contact</h1>
-<div>
+<div id="contactText">
   <a href="https://www.google.com/maps/place/Rue+du+Chevreuil+4,+1000+Bruxelles,+Belgique/@50.8380281,4.3431966,17z/data=!4m6!3m5!1s0x47c3c47ab20dc999:0x6e2f42cdf621a499!8m2!3d50.8380281!4d4.3453853!16s%2Fg%2F11c5c79_c5"
   target="_blank" rel="noopener noreferrer">
   <p>4 rue du Chevreuil, 1000 Brussels</p> 
