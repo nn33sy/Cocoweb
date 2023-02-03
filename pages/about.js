@@ -28,12 +28,12 @@ const About = () => {
 
         <div class="centerText" >
         <h1>About</h1>
-        <div>
+        <div id="aboutText">
 
-<p>A restoration Atelier nested in the heart of<br /> Brussels, near the place jeu de Balle, run by <br /> myself, Coralie Llucia-How-Choong. </p>
+<p>A restoration Atelier nested in the heart of Brussels, near the place jeu de Balle, run by  myself, Coralie Llucia-How-Choong. </p>
 
-<p>I am a Sculpture and 3D objects<br />conservator/restorer, fully licenced from City<br />and Guilds London art school in 2015, my <br />specialities are the treatment of wood, stone
-<br />and plaster artefacts.</p>
+<p>I am a Sculpture and 3D objects conservator/restorer, fully licenced from City and Guilds London art school in 2015, my specialities are the treatment of wood, stone
+and plaster artefacts.</p>
 </div>
 <h1>Contact</h1>
 <div>
