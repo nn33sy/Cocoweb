@@ -8,8 +8,10 @@ const Navbar = () => {
                 
             <div>
              <Link href="/">
+                
                 <h1>Coralie How Atelier</h1>
-                <h3>Sculpture and object conservation</h3>
+                <h5>Sculpture and object conservation</h5>
+               
             </Link>
             
             </div>

@@ -205,12 +205,13 @@ a {
 .header{
   display: flex;
   margin-top: 2%;
-  margin-left: 3%;
+  margin-left: 2%;
+  line-height: 20%;
   font-size: 25px;
   justify-content: left;
+ 
 
 }
-
 
 
 
