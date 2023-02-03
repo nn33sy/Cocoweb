@@ -28,7 +28,7 @@ const About = () => {
 
         <div class="centerText" >
         <h1>About</h1>
-        <div id="aboutText">
+        <div id="Text">
 
 <p>A restoration Atelier nested in the heart of Brussels, near the place jeu de Balle, run by  myself, Coralie Llucia-How-Choong. </p>
 

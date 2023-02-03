@@ -19,7 +19,7 @@ const Services = () => {
             <Image  class="imgcenter" id="statueServices" src={Statue}></Image>
 
             </div>
-            <div id="textService">
+            <div id="Text">
             <h1>Services</h1>
             <p>Native from Reunion Island, I have studied the art of sculpture and 3D objects
            conservation/restoration in London and have since 2015 worked various project in

@@ -15,20 +15,20 @@ const workshop = () => {
            
 
             <h1>Workshops</h1>
-            <div>
-        <p>The atelier is also hosting fabulous workshops for the<br />art lovers and the curious makers.
-         Come and join me <br /> in one of the many modules.</p>
+            <div id="Text">
+        <p>The atelier is also hosting fabulous workshops for the art lovers and the curious makers.
+         Come and join me  in one of the many modules.</p>
          
-         <p>If you have an object and the wish to restore it <br />
-         yourself, I will be hosting a special workshop <br />
-         including a visit in the flea market, a hot drink and <br />
-         croissant followed by a 3 hour session in the atelier <br />
-         (including materials and tools) where I help you <br />
+         <p>If you have an object and the wish to restore it 
+         yourself, I will be hosting a special workshop 
+         including a visit in the flea market, a hot drink and 
+         croissant followed by a 3 hour session in the atelier 
+         (including materials and tools) where I help you 
          with your project.</p>
 
-        <p>Other modules will be including various technique on<br />
-        how to make your own paints, inks, pastels and more. <br />
-        Introductions to oil gilding, verre englomisée, icone <br />
+        <p>Other modules will be including various technique on
+        how to make your own paints, inks, pastels and more.
+        Introductions to oil gilding, verre englomisée, icone 
         painting and jappaning.</p>
         <p>Follow me on instagram for the full informations.</p>
         </div>

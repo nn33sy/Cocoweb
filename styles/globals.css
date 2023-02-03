@@ -131,9 +131,11 @@ a {
 
 
 }
-#aboutText {
-  max-width: 500px;
+#contactText {
+  padding-bottom: 50px;
 }
+
+
 @media (max-width: 415px)
 {
   .centerText {
@@ -167,10 +169,7 @@ a {
   align-items: flex-end;
   
 }
-#textService {
-  max-width: 426px;
 
-}
 #statueServices {
   height:600px;
 
@@ -204,6 +203,9 @@ a {
 #jar_workshop{
   height:5cm;
 
+}
+#Text{
+  max-width: 500px;
 }
 
 
