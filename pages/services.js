@@ -29,7 +29,7 @@ const Services = () => {
              <p>My specialities are the treatment wood, stone and plaster artifacts, using modern
              and traditional techniques. I work from my atelier and in situ upon request.</p>
 
-             <p>Services includes:</p>
+             <h1>Services includes:</h1>
              <p>• Conditions and treatment reports (no authentification)<br />
              • Restorations and repairs <br />
              • Light and deep cleaning <br />
