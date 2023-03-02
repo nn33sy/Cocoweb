@@ -30,10 +30,14 @@ const About = () => {
         <h1>About</h1>
         <div id="Text">
 
-<p>A restoration Atelier nested in the heart of Brussels, near the place jeu de Balle, run by  myself, Coralie Llucia-How-Choong. </p>
+<p>I am Coralie Llucia-How-Choong, a highly skilled and experienced sculpture conservator/restorer with a passion for preserving the beauty and cultural significance of sculptures and objects of art. I received my training in City and Guilds London art school in 2015 and have honed my skills through years of hands-on experience, working on a wide range of projects for some of the most prestigious institutions, museums and conservation studios.</p>
 
-<p>I am a Sculpture and 3D objects conservator/restorer, fully licenced from City and Guilds London art school in 2015, my specialities are the treatment of wood, stone
-and plaster artefacts.</p>
+<p>Throughout my career, I have worked in London, Venice, and Brussels, gaining a broad and diverse range of experience in conservation and restoration. From the intricate details of historical monuments to the dynamic forms of contemporary masterpieces, I have a deep understanding of the unique challenges and considerations involved in preserving each type of sculpture and objects of art.</p>
+
+<p>Whether working in a museum setting or with a private collector, I approach each project with the utmost care and attention to detail. My goal is to ensure that each sculpture remains as close to its original condition as possible, while also taking into account the needs and goals of each individual client.</p>
+<p>With my deep knowledge of the materials and techniques used in creating sculptures, combined with my expertise in conservation and restoration, I am confident in my ability to provide the highest quality services to each of my clients. If you are looking for a sculpture conservator/restorer with a commitment to ethical and sustainable practices, who has a passion for preserving the beauty and cultural significance of sculptures, I would be honored to work with you.
+
+</p>
 </div>
 <h1>Contact</h1>
 <div id="contactText">
