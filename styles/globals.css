@@ -124,7 +124,7 @@ a {
 /*ABOUT*/
 .centerText {
   display: flex;
-  text-align: left;
+  text-align: justify;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -167,6 +167,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  text-align: justify;
   
 }
 
@@ -183,8 +184,9 @@ a {
   }
   .services {
     display: flex;
-    text-align: left;
+    text-align: justify;
     justify-content: center;
+    text-align: justify;
     flex-direction: column;
     align-items: center;
     margin-left: 20px;
