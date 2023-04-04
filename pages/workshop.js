@@ -3,9 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import 'react-calendar/dist/Calendar.css'
 import Jar from '../public/pigmentjaryellow.png'
-
+import React, { useEffect} from "react"
 
 const workshop = () => {
+    useEffect(() => {
+        document.title = "Coralie How Atelier";  
+      }, []);
     return (
 <div>
        

@@ -1,13 +1,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Statue from '../public/statue.png'
-import React from 'react'
+import React, { useEffect} from "react"
 
 
 
 
 const Services = () => {
-   
+    useEffect(() => {
+        document.title = "Coralie How Atelier";  
+      }, []);
     return(
         <div>
   

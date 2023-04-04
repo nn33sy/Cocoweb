@@ -2,14 +2,16 @@
 
 import Image from 'next/image'
 import ProfilePicture from '../public/cadre.png'
-
+import React, { useEffect} from "react"
 
 
 
 
 
 const About = () => {
-
+  useEffect(() => {
+    document.title = "Coralie How Atelier";  
+  }, []);
 
   
     return ( 
